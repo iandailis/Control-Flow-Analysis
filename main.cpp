@@ -9,14 +9,8 @@ int main() {
 	vector<std::tuple<int, int, int, int>> vec;
 	string textFile = "data/graph.txt";
 	vec = createMap(getVector(textFile));
-	for (size_t i=0; i < vec.size(); i++) {
-		cout << get<0>(vec[i]) << ", ";
-		cout << get<1>(vec[i]) << ", ";
-		cout << get<2>(vec[i]) << ", ";
-		cout << get<3>(vec[i]) << endl;
-	}
 	Graph g(vec);
-
+	
 	cout << endl;
 	cout << "All of the edges:" << endl;
 	g.print();
