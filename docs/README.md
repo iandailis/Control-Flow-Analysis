@@ -1,5 +1,5 @@
 # Control-Flow-Analysis
-Final project for amiyak2-ryanbk2-dcondr2-idailis2
+Group final project
 
 Presentation: https://www.youtube.com/watch?v=GOxeJ-KGsDQ
 
