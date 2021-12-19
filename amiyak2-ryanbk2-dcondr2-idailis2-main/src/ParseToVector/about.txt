@@ -1,0 +1,7 @@
+I wrote the code that will parse Ian's text file and output a vector of tuples. The important code
+is in the VectorTuple.cpp file, and for testing I created two sample text files which should look
+like the real text files we'll be using. There is finally a main file that just calls the getVector
+function in VectorTuple.cpp (which in turn calls some helper functions). This main function can be 
+edited easily to implement all our codes later. 
+           
+- Amiya

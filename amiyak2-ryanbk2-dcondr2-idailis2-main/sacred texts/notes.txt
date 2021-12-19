@@ -1,0 +1,33 @@
+
+Make the blocks into nodes in a graph and see where they lead. 
+Amount of commands in a block as the weight
+Use vector data structure. 
+Keep reading until we find a .L or :
+
+Structure of data:
+(string name) (int weight) (string edge1) (string edge2)
+(string name) (int weight) (string edge1) (string edge2)
+(string name) (int weight) (string edge1) (string edge2)
+(string name) (int weight) (string edge1) (string edge2)
+
+Implementing the Adjacency List:
+https://www.softwaretestinghelp.com/graph-implementation-cpp/#C_Graph_Implementation_Using_Adjacency_List 
+
+Ctrl + F: To find a key word
+
+Creating a branch: git checkout -b "NameOfBranch"
+
+
+Process of getting data:
+1. On FastX, make a main.cpp file, and put something inside main.cpp. make sure it compiles.
+2. > clang++ main.cpp -S -emit-llvm -O0
+3. > opt main.ll -dot-cfg
+4. copy paste the contents of cfg._Z7sortArrPii.dot or whichever dot file into graph.dot in the location of the python parser
+5. > python parse.py
+6. copy paste the contents of graph.txt into Amiya's parser
+
+Code must be primarily inside one function. This makes the weights more accurate.
+
+https://dreampuf.github.io/GraphvizOnline/
+
+g++ main.cpp -o main src/graph/graph.cpp src/graph/dfs.cpp src/graph/getLoopNest.cpp src/graph/getShortestPath.cpp src/ParseToVector/VectorTuple.cpp -Wall -Werror
