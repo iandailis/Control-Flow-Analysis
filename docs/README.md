@@ -3,6 +3,8 @@ Group final project
 
 Presentation: https://www.youtube.com/watch?v=GOxeJ-KGsDQ
 
+![Project Image](https://github.com/iandailis/Control-Flow-Analysis/blob/main/docs/graphviz.png)
+
 In order to compile and run the program, the following commands must be used:
 
 clang++ main.cpp -o main src/graph/graph.cpp src/graph/dfs.cpp src/graph/getLoopNest.cpp src/graph/getShortestPath.cpp src/ParseToVector/VectorTuple.cpp -Wall -Werror -std=c++11
